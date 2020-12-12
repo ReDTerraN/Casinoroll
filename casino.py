@@ -30,7 +30,7 @@ def generatedata():
             rolls += 1
             actualmoneyspent=0
             if value == 1000000:
-                actualmoneyspent= money*0.4
+                actualmoneyspent= money*0.4 #simulate 40% return to player
                 amountoftimes += 1
                 file1 = open("AMS.txt","a") 
                 file1.write(str(actualmoneyspent))
